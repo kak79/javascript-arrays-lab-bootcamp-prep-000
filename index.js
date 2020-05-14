@@ -44,7 +44,7 @@ function appendKitten(name){
 //prepends a kitten to the beginning of the kittens array and returns a new array, leaving the kittens array unchanged
 function prependKitten(name){
 
- return newArray6.concat(0)
+ return name.concat(0)
 
 }
 
