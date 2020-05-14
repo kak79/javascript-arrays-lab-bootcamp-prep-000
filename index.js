@@ -11,9 +11,9 @@ function destructivelyAppendKitten(name,element){
 }
 
 //prepends a kitten to the beginning of the kittens array
-function destructivelyPrependKitten(name,element){  
+function destructivelyPrependKitten(name){  
 
-  name.unshift(element);
+  name.unshift();
   return name
   
 }
