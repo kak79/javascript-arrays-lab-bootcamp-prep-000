@@ -5,7 +5,7 @@ var kittens = ["Milo", "Otis", "Garfield"]
 //appends a kitten to the end of the kittens array
 function destructivelyAppendKitten(name,element){  
   
-  newArray1.push(element);
+  name.push(element);
   return newArray1
   
 }
