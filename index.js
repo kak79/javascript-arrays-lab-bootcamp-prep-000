@@ -35,7 +35,7 @@ function destructivelyRemoveFirstKitten(newArray4){
 }
 
 //appends a kitten to the end of the kittens array and returns a new array, leaving the kittens array unchanged
-function appendKitten(newArray5){
+function appendKitten(name){
 
  return newArray5.concat(newArray5.length)
 
