@@ -21,43 +21,43 @@ function destructivelyPrependKitten(newArray2,element){
 //removes the last kitten from the kittens array
 function destructivelyRemoveLastKitten(newArray3){  
 
-  array3.pop()
-  return array3
+  newArray3.pop()
+  return newArray3
 
 }
 
 //removes the First kitten from the kittens array
-function destructivelyRemoveFirstKitten(array4){  
+function destructivelyRemoveFirstKitten(newArray4){  
 
-  array4.shift()
-  return array4
+  newArray4.shift()
+  return newArray4
 
 }
 
 //appends a kitten to the end of the kittens array and returns a new array, leaving the kittens array unchanged
-function appendKitten(array5){
+function appendKitten(newArray5){
 
- return array5.concat(array5.length)
+ return newArray5.concat(newArray5.length)
 
 }
 
 //prepends a kitten to the beginning of the kittens array and returns a new array, leaving the kittens array unchanged
-function prependKitten(array6){
+function prependKitten(newArray6){
 
- return array6.concat(0)
+ return newArray6.concat(0)
 
 }
 
 //removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged
-function removeLastKitten(array7){
+function removeLastKitten(newArray7){
 
-  return array7.slice(0, array7.length-1)
+  return newArray7.slice(0, newArray7.length-1)
 
 }
 
 //removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged
-function removeFirstKitten(array8){
+function removeFirstKitten(newArray8){
 
-  return array8.slice(1)
+  return newArray8.slice(1)
 
 }
