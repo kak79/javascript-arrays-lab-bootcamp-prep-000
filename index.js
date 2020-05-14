@@ -3,9 +3,9 @@ var kittens = ["Milo", "Otis", "Garfield"]
 // Add your functions and code here
 
 //appends a kitten to the end of the kittens array
-function destructivelyAppendKitten(array1,element){  
+function destructivelyAppendKitten(array1){  
 
-  array1.push(element)
+  array1.push();
   return array1
   
 }
@@ -13,7 +13,7 @@ function destructivelyAppendKitten(array1,element){
 //prepends a kitten to the beginning of the kittens array
 function destructivelyPrependKitten(array2,element){  
 
-  array2.unshift(element)
+  array2.unshift(element);
   return array2
   
 }
