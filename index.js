@@ -6,7 +6,7 @@ var kittens = ["Milo", "Otis", "Garfield"]
 function destructivelyAppendKitten(newArray1,element){  
 
   newArray1.push(element);
-  return array1
+  return newArray1
   
 }
 
@@ -14,7 +14,7 @@ function destructivelyAppendKitten(newArray1,element){
 function destructivelyPrependKitten(newArray2,element){  
 
   newArray2.unshift(element);
-  return rray2
+  return newArray2
   
 }
 
