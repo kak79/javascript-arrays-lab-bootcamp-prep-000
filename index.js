@@ -14,7 +14,7 @@ function destructivelyAppendKitten(name,element){
 function destructivelyPrependKitten(name,element){  
 
   name.unshift(element);
-  return newArray2
+  return name
   
 }
 
